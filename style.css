@@ -1,0 +1,264 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+/* Header */
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+
+/* Main */
+
+main {
+    width: 100%;
+    height: 800px;
+    background-color: #FEDCD2;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper .upper-text {
+    padding-top : 100px;
+    margin-left:16px;
+}
+
+.wrapper .upper-text p {
+    color: #7dbbeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.wrapper .upper-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262e49;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.wrapper .upper-text h2 {
+    color: #262e49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.lower-pics-section {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+
+.lower-pics-section .div-1 {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    
+    
+}
+.lower-pics-section .div-1 img {
+    width: 100%;
+}
+.lower-pics-section .div-1 .margin-pic1 {
+    margin: 0 20px; 
+}
+
+.lower-pics-section .div-1 h2 {
+    color: #7dbbeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.lower-pics-section .div-1 h3 {
+    color: #262e49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 20px; 
+}
+
+.lower-pics-section .div-1 .information {
+    color: #262e49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 20px; 
+}
+.lower-pics-section .div-1 h5 {
+    color: #262e49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 20px; 
+}
+
+.div-1 .price {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+    
+    
+}
+.div-1 .price .ist-p {
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.div-1 .price .snd-p {
+    color: #55b533;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+}
+.div-1 .timing {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.div-1 .timing p {
+    color: #262e49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0 5px 0 0; 
+}
+
+.div-1 h4 {
+    width: fit-content;
+    color: #7dbbeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    border: 2px solid #7dbbeb;
+    border-radius: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+} 
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
